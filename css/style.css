@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Signika:wght@500&family=Ubuntu:ital,wght@1,300&display=swap");
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: rgb(61, 62, 16);
+  background: linear-gradient(270deg, rgb(61, 62, 16) 13%, rgb(51, 51, 42) 36%, rgb(38, 40, 7) 66%, rgb(29, 29, 25) 86%) !important;
+}
+
+ul li a {
+  transition: 0.5s transform;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: 0.5 ease;
+}
+
+.main {
+  background-image: url(../assets/images/fondopantallaAZULYAMARILLO.jpg);
+  background-size: cover;
+}
+
+footer {
+  background: linear-gradient(90deg, rgb(33, 34, 9) 13%, rgb(43, 43, 35) 36%, rgb(31, 32, 6) 66%, rgb(29, 29, 25) 86%) !important;
+  border-top: black solid 2px;
+  height: auto;
+}
+footer section {
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+footer section img {
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Signika";
+  text-decoration: underline;
+  font-style: italic;
+  color: white;
+}
+
+#fondo-negro {
+  background: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);
+}
+#fondo-negro div div section {
+  font-size: 22px;
+  font-family: "Ubuntu";
+}
+
+div div div section {
+  font-size: 25px;
+  font-family: "Lato";
+}
+
+#prod-desc {
+  background: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);
+  border-radius: 1rem;
+}
+
+.buscador {
+  font-size: 25px;
+  font-family: "Lato";
+}
+
+#imgprod div div img {
+  height: 200px;
+  border: 2px solid black;
+  transition: 0.5s transform;
+}
+
+#imgprod div div img:hover {
+  transform: scale(1.15);
+  transition: 0.5 ease;
+}
+
+#serv-tit {
+  margin: 50px;
+}
+
+#serv-desc {
+  background: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);
+  border-radius: 1rem;
+}
+#serv-desc section {
+  text-align: center;
+}
+
+div div div h4 {
+  font-size: 23px;
+  color: cornsilk;
+  text-align: center;
+}
+
+#rep-cel div div {
+  background-color: rgba(7, 7, 7, 0.507);
+}
+#rep-cel div div p {
+  font-size: 22px;
+  font-family: "Ubuntu";
+}
+#rep-cel div div div {
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 33px;
+  color: rgb(233, 181, 10);
+  font-style: italic;
+}
+
+#quienessomos div div section {
+  background: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);
+  border-radius: 25px;
+}
+
+#escribinos-1 div div h1 {
+  text-align: center;
+}
+
+fieldset legend {
+  font-size: 25px;
+  font-family: "Lato";
+  margin-left: 5vw;
+  color: white;
+  font-weight: bold;
+}
+fieldset div div section {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#hombre {
+  font-size: 150%;
+  color: white;
+}
+
+#mujer {
+  font-size: 150%;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#ingresenombre {
+  font-size: 25px;
+  font-family: "Lato";
+  color: white;
+}
+
+#ingresemail {
+  font-size: 25px;
+  font-family: "Lato";
+  color: white;
+}/*# sourceMappingURL=style.css.map */

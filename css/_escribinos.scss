@@ -1,0 +1,43 @@
+#escribinos-1 {
+    div div h1 {
+        text-align: center;
+    }
+}
+
+fieldset {
+ legend {
+    @include font-p2;
+    margin-left: 5vw;
+    color: white;
+    font-weight: bold;
+}
+    div div section {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+}
+
+#hombre {
+    font-size: 150%;
+    color: white;
+}
+
+#mujer {
+    font-size: 150%;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#ingresenombre {
+    @include font-p2;
+    color: white;
+}
+
+#ingresemail {
+    @include font-p2;
+    color: white;
+
+}

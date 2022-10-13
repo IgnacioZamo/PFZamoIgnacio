@@ -1,0 +1,26 @@
+#serv-tit {
+    margin: 50px;
+}
+
+#serv-desc {
+    background: $color-fondo;
+    border-radius: 1rem;
+        section {
+    text-align: center;
+    }    
+}
+div div div h4 {
+    @include font-p3
+}
+
+#rep-cel {
+    div div {
+        background-color:rgba(7, 7, 7, 0.507);
+        p {
+            @include font-p
+        }
+        div {
+            margin-top: 2rem;
+        }
+    }
+}

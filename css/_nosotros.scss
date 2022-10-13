@@ -1,0 +1,11 @@
+h3 {
+    @include font-h3;
+}
+
+#quienessomos {
+    div div section {
+        background: $color-fondo;
+        border-radius: 25px;
+    }
+    
+}

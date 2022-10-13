@@ -1,0 +1,35 @@
+@mixin font-tit {
+    font-size: 70px;
+    font-family: 'Signika';
+    text-decoration: underline;
+    font-style: italic;
+    color: white;
+    
+}
+
+@mixin font-p {
+    font-size: 22px;
+    font-family: 'Ubuntu';
+}
+
+@mixin font-p2 {
+    font-size: 25px;
+    font-family: 'Lato';
+    
+}
+
+@mixin font-p3 {
+    font-size: 23px;
+    color: cornsilk;
+    text-align: center;
+}
+
+@mixin font-h3 {
+    font-size: 33px;
+    color:rgb(233, 181, 10);
+    font-style: italic;
+    
+    
+}
+
+$color-fondo: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);

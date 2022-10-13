@@ -1,0 +1,17 @@
+#prod-desc {
+    background: $color-fondo;
+    border-radius: 1rem
+}
+.buscador {
+    @include font-p2;
+}
+
+#imgprod div div img {
+    height: 200px;
+    border: 2px solid black;
+    transition: 0.5s transform;
+}
+#imgprod div div img:hover{
+    transform: scale(1.15);
+    transition: 0.5 ease;
+}

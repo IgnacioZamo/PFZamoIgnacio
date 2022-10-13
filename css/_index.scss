@@ -1,0 +1,17 @@
+h1 {
+    @include font-tit;
+}
+
+#fondo-negro {
+    background: $color-fondo;
+    div{
+        div{
+            section {
+                @include font-p;
+            }
+        }
+    }
+}
+div div div section {
+    @include font-p2
+}
