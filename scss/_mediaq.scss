@@ -1,0 +1,51 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    #fondo-negro {
+        background: $color-fondo;
+        div{
+            div {
+                section {
+                    @include font-p;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    #imgprod {
+        div div img {
+            height: 150px;
+        }
+    }
+    #index__steve{
+        font-size: 25px;
+    }
+}
+@media (max-width: 320px) {
+    h1 {
+        font-size: 40px;
+    }
+    #index__steve{
+        font-size: 20px;
+    }
+    #fondo-negro {
+        background: $color-fondo;
+        div{
+            div {
+                section {
+                    @include font-p;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    #imgprod {
+        div div img {
+            height: 100px;
+        }
+    }   
+}

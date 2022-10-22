@@ -20,7 +20,12 @@ div div div h4 {
             @include font-p
         }
         div {
-            margin-top: 2rem;
+            margin: 2rem;
+            img {
+                width: 20rem;
+                
+            }
+            
         }
     }
 }

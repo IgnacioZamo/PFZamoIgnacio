@@ -20,7 +20,7 @@ ul li a:hover {
 }
 
 .main {
-  background-image: url(../assets/images/fondopantallaAZULYAMARILLO.jpg);
+  background-image: url(../assets/images/fondopantallaAZULYAMARILLO.webp);
   background-size: cover;
 }
 
@@ -105,7 +105,10 @@ div div div h4 {
   font-family: "Ubuntu";
 }
 #rep-cel div div div {
-  margin-top: 2rem;
+  margin: 2rem;
+}
+#rep-cel div div div img {
+  width: 20rem;
 }
 
 h3 {
@@ -123,18 +126,10 @@ h3 {
   text-align: center;
 }
 
-fieldset legend {
-  font-size: 25px;
-  font-family: "Lato";
-  margin-left: 5vw;
-  color: white;
-  font-weight: bold;
-}
-fieldset div div section {
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-  font-size: 25px;
-  font-weight: bold;
+#contacto {
+  background: linear-gradient(90deg, rgba(26, 27, 3, 0.247) 13%, rgba(36, 28, 3, 0.692) 36%, rgba(31, 32, 6, 0.651) 66%, rgba(39, 27, 2, 0.808) 86%) !important;
+  border-radius: 20px;
+  border: black 2px solid;
 }
 
 #hombre {
@@ -158,4 +153,43 @@ fieldset div div section {
   font-size: 25px;
   font-family: "Lato";
   color: white;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  #fondo-negro {
+    background: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);
+  }
+  #fondo-negro div div section {
+    font-size: 22px;
+    font-family: "Ubuntu";
+    font-size: 20px;
+  }
+  #imgprod div div img {
+    height: 150px;
+  }
+  #index__steve {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    font-size: 40px;
+  }
+  #index__steve {
+    font-size: 20px;
+  }
+  #fondo-negro {
+    background: linear-gradient(168deg, rgba(5, 8, 31, 0.8799894958) 80%, rgb(35, 36, 2) 99%);
+  }
+  #fondo-negro div div section {
+    font-size: 22px;
+    font-family: "Ubuntu";
+    font-size: 20px;
+  }
+  #imgprod div div img {
+    height: 100px;
+  }
 }/*# sourceMappingURL=style.css.map */
